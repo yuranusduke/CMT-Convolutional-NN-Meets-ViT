@@ -10,7 +10,7 @@ implementation, please send me an email at yuranusduke@163.com or simply add an 
 
 ## Backgrounds
 In this paper, authors design new ViT architecture for object recognition: CMT. CMT uses convolution head as stem
-which is effective in the former literature. And the whole model is made up of several Patch Aggregation and CMT blocks.
+which was proved to be very effective in the former literature. And the whole model is made up of several Patch Aggregation and CMT blocks.
 The whole architecture is :
 
 ![img](./README/model.png)
