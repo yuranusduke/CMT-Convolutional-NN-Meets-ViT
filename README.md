@@ -102,4 +102,14 @@ who are interested in running and validating the code on great machines.
     </tr>
 </table>
 
+## Citation
+
+    @misc{guo2021cmt,
+      title={CMT: Convolutional Neural Networks Meet Vision Transformers}, 
+      author={Jianyuan Guo and Kai Han and Han Wu and Chang Xu and Yehui Tang and Chunjing Xu and Yunhe Wang},
+      year={2021},
+      eprint={2107.06263},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}}
+
 ***<center>Veni，vidi，vici --Caesar</center>***
