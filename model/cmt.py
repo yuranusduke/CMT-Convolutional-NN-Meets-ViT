@@ -8,6 +8,8 @@ but in practice, in LPU, residual connection is need, so difference in channels 
 impossible, therefore, we use the same channels between Patch Aggregation and LPU. So calculated number of
 params differ a little from the paper.
 
+Update: The new version of architecture is released to fix the above bugs.
+
 Created by Kunhong Yu
 Date: 2021/07/14
 """
