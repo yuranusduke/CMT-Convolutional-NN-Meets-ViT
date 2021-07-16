@@ -1,0 +1,6 @@
+torch~=1.9.0+cu111
+fire~=0.4.0
+tqdm~=4.59.0
+torchvision~=0.10.0+cu111
+numpy~=1.20.3
+matplotlib~=3.4.2

@@ -1,0 +1,15 @@
+python main.py main \
+--data_root='./data/' \
+--dataset='cifar10' \
+--input_size=160 \
+--model_name='cmt_ti' \
+--use_gpu=True \
+--n_gpu=1 \
+--batch_size=32 \
+--epochs=160 \
+--optimizer='adamw' \
+--init_lr=1e-5 \
+--gamma=0.2 \
+--milestones=[30,60,90,120,150] \
+--weight_decay=1e-5 \
+--only_test=False
