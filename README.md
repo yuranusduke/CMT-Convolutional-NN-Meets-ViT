@@ -36,19 +36,19 @@ who are interested in running and validating the code on great machines.
 
 ### Hyper-parameters and defaults
 ```bash
---data_root: default is './data/'
---dataset: data set name, default is 'cifar10', also support 'cifar100' and 'imagenet'(which we don't experiment due to limited computation) and 'tiny_imagenet' and 'flowers', also 'cars'
---input_size: default is 160, also support 192, 224, 256, 288
---model_name: default is 'cmt_ti', also support 'cmt_xs', 'cmt_s', 'cmt_b'
---use_gpu: True as default
---n_gpu: default is 1
---batch_size: default is 32
---epochs: default is 160
---optimizer: default is 'adamw', also support 'adam'/'momentum'
---init_lr: default is 1e-5
---gamma: learning rate decay rate, default is 0.2
---milestones: we use steplr decay, default is [30, 60, 90, 120, 150]
---weight_decay: default is 1e-5
+--data_root # default is './data/'
+--dataset # data set name, default is 'cifar10', also support 'cifar100' and 'imagenet'(which we don't experiment due to limited computation) and 'tiny_imagenet' and 'flowers', also 'cars'
+--input_size # default is 160, also support 192, 224, 256, 288
+--model_name # default is 'cmt_ti', also support 'cmt_xs', 'cmt_s', 'cmt_b'
+--use_gpu # True as default
+--n_gpu # default is 1
+--batch_size # default is 32
+--epochs # default is 160
+--optimizer # default is 'adamw', also support 'adam'/'momentum'
+--init_lr # default is 1e-5
+--gamma # learning rate decay rate, default is 0.2
+--milestones # we use steplr decay, default is [30, 60, 90, 120, 150]
+--weight_decay # default is 1e-5
 ```
 
 ### Usage
